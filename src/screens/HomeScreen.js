@@ -86,7 +86,7 @@ export default class App extends React.Component {
                             text='Register'
                             style={{ container: { backgroundColor: 'blue', borderRadius: 20, marginBottom: 10 } }}
                         />
-                        <Button onPress={() =>Actions.Register()}
+                        <Button onPress={() =>Actions.Login()}
                             text='Login'
                             style={{ container: { backgroundColor: 'blue', borderRadius: 20 } }}
                         />

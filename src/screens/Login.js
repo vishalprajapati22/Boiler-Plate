@@ -18,7 +18,7 @@ export default class App extends React.Component {
     return (
 
       <View style={{ flex: 1, backgroundColor: '#696969' }}>
-        <View style={{ marginTop: 60, marginLeft: 30 }}>
+        <View style={{ marginTop: 40, marginLeft: 30 }}>
           <Text style={{ fontSize: 38, fontFamily: 'Poppins-Bold', color: '#5D92B1' }}>Log in</Text>
         </View>
 

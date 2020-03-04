@@ -9,7 +9,7 @@ export default class App extends React.Component {
     return (
       <View style={{ flex: 1, backgroundColor: 'white' }}>
 
-        <View style={{ marginTop: 60, marginLeft: 30 }}>
+        <View style={{ marginTop: 40, marginLeft: 30 }}>
           <Text style={{ fontSize: 38,fontFamily: 'Poppins-Bold' }}>Register</Text>
         </View>
         <View
@@ -54,7 +54,7 @@ export default class App extends React.Component {
         </View>
 
 
-        <View style={{ alignItems: 'center', marginTop: 50,  marginLeft: 120, marginRight: 120 }}>
+        <View style={{ alignItems: 'center', marginTop: 40,  marginLeft: 120, marginRight: 120 }}>
           <Button upperCase={false}
             style={{
               container: { backgroundColor: '#ff4c4c', borderRadius: 30, height: 45, width: width - 240 },
@@ -62,7 +62,7 @@ export default class App extends React.Component {
             }} text="Sign Up" />
         </View>
 
-        <View style={{ marginTop: 50}}>
+        <View style={{ marginTop: 40}}>
           <Text style={{ textAlign: 'center', fontSize: 15, color: '#202020', fontFamily: 'Poppins-Regular' }}>Already have an account.</Text>
           <TouchableOpacity onPress={() =>Actions.Login()}>
             <Text style={{ textAlign: 'center', color: '#ff1919', fontSize: 17, fontFamily: 'Poppins-Regular' }}>LOGIN</Text>
